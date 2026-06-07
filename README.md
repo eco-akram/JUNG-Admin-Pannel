@@ -16,6 +16,12 @@
 - **Role-based access** — three roles (`admin`, `consultant`, `authenticated`) with UI elements and write operations conditionally rendered per role
 - **Session management** — persistent Supabase auth session with a React context; automatic redirect for unauthenticated users
 
+## Related
+
+This panel is the backend management interface for the JUNG mobile app. Both projects share the same Supabase database — content created here (products, categories, questions) is consumed directly by the mobile client:
+
+**[JUNG Mobile](https://github.com/eco-akram/JUNG-Mobile)** — cross-platform iOS/Android/Web app built with Expo and React Native.
+
 ## Tech Stack
 
 | Layer | Technology |
